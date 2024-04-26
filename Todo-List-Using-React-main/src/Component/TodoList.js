@@ -13,7 +13,7 @@ const TodoList = () => {
   const [inputValue, setInputValue] = useState('');
   const [filter, setFilter] = useState('all'); 
   const [isLoading, setIsLoading] = useState(true); 
-  const [editTaskId, setEditTaskId] = useState(null); 
+  const [editTaskId, setEditTaskId] = useState(); 
 
   
   useEffect(() => {
